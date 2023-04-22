@@ -40,7 +40,7 @@ function WordInput() {
       <form onSubmit={handleSubmit}>
         <label>
           <input type="text" value={word} onChange={(event) => setWord(event.target.value)} />
-        </label>
+        </label> <br />
         <button type="submit">Submit</button>
       </form>
       {definition ? (

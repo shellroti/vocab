@@ -1,38 +1,8 @@
-.form-container {
+body {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-  }
-   label {
-    margin-bottom: 10px;
-    font-weight: bold;
-  }
-   input[type="text"] {
-    padding: 5px 10px;
-    border-radius: 5px;
-    border-color: #ccc;
-    font-size: 16px;
-  }
-   button[type="submit"] {
-    margin-top: 10px;
-    padding: 5px 10px;
-    border-radius: 5px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-  }
-   .word-container {
-    margin-top: 20px;
-    text-align: center;
-  }
-   h2 {
-    font-size: 24px;
-    font-weight: bold;
-  }
-   p {
-    font-size: 18px;
-  }
-   em {
-    font-style: italic;
+    height: 100vh;
+    margin: 0;
   }
